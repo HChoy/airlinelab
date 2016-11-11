@@ -1,0 +1,36 @@
+{
+  "name": "sabre",
+  "version": "1.0.0",
+  "description": "sabre demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+"body-parser": "latest",
+    "compression": "latest",
+    "cookie-parser": "latest",
+    "dateformat": "~1.0.7-1.2.3",
+    "errorhandler": "latest",
+    "express": "latest",
+    "express-session": "latest",
+    "http-post": "~0.1.1",
+    "memory-cache": "0.0.5",
+    "method-override": "latest",
+    "morgan": "latest",
+    "mstring": "^0.1.2",
+    "multer": "^0.1.0",
+    "serve-favicon": "latest",
+    "string": "~1.8.0",
+    "underscore": "latest",
+    "validator": "^3.19.1",
+    "sabre-dev-studio": "^1.2.0"
+  },
+    "name": "sabrelab",
+    "subdomain": "sabrelab",
+    "scripts": {
+      "start": "node app.js"
+  }
+}
